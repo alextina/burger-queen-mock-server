@@ -107,9 +107,9 @@
         },
         {
             "_id": "6",
-            "name": "https://raw.githubusercontent.com/alextina/burger-queen-server-mock/main/resources/images/double-burger.png",
+            "name": "Double Burger",
             "price": 15,
-            "image": "resources/images/double-burger.png",
+            "image": "https://raw.githubusercontent.com/alextina/burger-queen-server-mock/main/resources/images/double-burger.png",
             "type": "lunch",
             "dateEntry": "04/04/23"
         },
