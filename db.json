@@ -1,0 +1,191 @@
+{
+    "orders": [
+        {
+            "id": 1,
+            "userId": 1,
+            "client": "Jude Milhon",
+            "products": [
+                {
+                    "qty": 1,
+                    "product": {
+                        "id": 1,
+                        "name": "Sandwich de jamón y queso",
+                        "price": 1000,
+                        "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
+                        "type": "Desayuno",
+                        "dateEntry": "2022-03-05 15:14:10"
+                    }
+                },
+                {
+                    "qty": 1,
+                    "product": {
+                        "id": 2,
+                        "name": "Café americano",
+                        "price": 500,
+                        "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+                        "type": "Desayuno",
+                        "dateEntry": "2022-03-05 15:14:10"
+                    }
+                }
+            ],
+            "status": "pending",
+            "dataEntry": "2022-03-05 15:00"
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "client": "Katie Bouman",
+            "products": [
+                {
+                    "qty": 2,
+                    "product": {
+                        "id": 2,
+                        "name": "Café americano",
+                        "price": 500,
+                        "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
+                        "type": "Desayuno",
+                        "dateEntry": "2022-03-05 15:14:10"
+                    }
+                },
+                {
+                    "qty": 1,
+                    "product": {
+                        "id": 3,
+                        "name": "Agua 500ml",
+                        "price": 500,
+                        "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
+                        "type": "Almuerzo",
+                        "dateEntry": "2022-03-05 15:14:10"
+                    }
+                }
+            ],
+            "status": "delivered",
+            "dataEntry": "2022-03-05 15:00",
+            "dateProcessed": "2022-03-05 16:00"
+        }
+    ],
+    "products": [
+        {
+            "_id": "1",
+            "name": "American Coffe",
+            "price": 5,
+            "image": "https://raw.githubusercontent.com/MariCornelio/DEV003-burger-queen-api-client/main/src/assets/american-coffee.png",
+            "type": "breakfast",
+            "dateEntry": "04/04/23"
+        },
+        {
+            "_id": "2",
+            "name": "Coffee with Milk",
+            "price": 7,
+            "image": "https://raw.githubusercontent.com/MariCornelio/DEV003-burger-queen-api-client/main/src/assets/coffee-and-milk.png",
+            "type": "breakfast",
+            "dateEntry": "04/04/23"
+        },
+        {
+            "_id": "3",
+            "name": "Ham and Cheese sandwish",
+            "price": 10,
+            "image": "https://raw.githubusercontent.com/MariCornelio/DEV003-burger-queen-api-client/main/src/assets/ham-and-cheese-sandwish.png",
+            "type": "breakfast",
+            "dateEntry": "04/04/23"
+        },
+        {
+            "_id": "4",
+            "name": "Natural fruit juice",
+            "price": 7,
+            "image": "https://raw.githubusercontent.com/MariCornelio/DEV003-burger-queen-api-client/main/src/assets/natural-fruit-juice.png",
+            "type": "breakfast",
+            "dateEntry": "04/04/23"
+        },
+        {
+            "_id": "5",
+            "name": "Plain Burger",
+            "price": 10,
+            "image": "https://raw.githubusercontent.com/MariCornelio/DEV003-burger-queen-api-client/main/src/assets/plain-burger.png",
+            "type": "lunch",
+            "dateEntry": "04/04/23"
+        },
+        {
+            "_id": "6",
+            "name": "Double Burger",
+            "price": 15,
+            "image": "https://raw.githubusercontent.com/MariCornelio/DEV003-burger-queen-api-client/main/src/assets/double-burger.png",
+            "type": "lunch",
+            "dateEntry": "04/04/23"
+        },
+        {
+            "_id": "7",
+            "name": "French Fries",
+            "price": 5,
+            "image": "https://raw.githubusercontent.com/MariCornelio/DEV003-burger-queen-api-client/main/src/assets/french-fries.png",
+            "type": "lunch",
+            "dateEntry": "04/04/23"
+        },
+        {
+            "_id": "8",
+            "name": "Onion Rings",
+            "price": 5,
+            "image": "https://raw.githubusercontent.com/MariCornelio/DEV003-burger-queen-api-client/main/src/assets/onion-rings.png",
+            "type": "lunch",
+            "dateEntry": "04/04/23"
+        },
+        {
+            "_id": "9",
+            "name": "Water 500 ml",
+            "price": 5,
+            "image": "https://raw.githubusercontent.com/MariCornelio/DEV003-burger-queen-api-client/main/src/assets/water.png",
+            "type": "lunch",
+            "dateEntry": "04/04/23"
+        },
+        {
+            "_id": "10",
+            "name": "Water 750 ml",
+            "price": 7,
+            "image": "https://raw.githubusercontent.com/MariCornelio/DEV003-burger-queen-api-client/main/src/assets/water.png",
+            "type": "lunch",
+            "dateEntry": "04/04/23"
+        },
+        {
+            "_id": "11",
+            "name": "Drink/Soda 500 ml",
+            "price": 7,
+            "image": "https://raw.githubusercontent.com/MariCornelio/DEV003-burger-queen-api-client/main/src/assets/soda.png",
+            "type": "lunch",
+            "dateEntry": "04/04/23"
+        },
+        {
+            "_id": "12",
+            "name": "Drink/Soda 750 ml",
+            "price": 10,
+            "image": "https://raw.githubusercontent.com/MariCornelio/DEV003-burger-queen-api-client/main/src/assets/soda.png",
+            "type": "lunch",
+            "dateEntry": "04/04/23"
+        }
+    ],
+    "users": [
+        {
+            "email": "castilloavilaa@gmail.com",
+            "password": "$2a$06$T9oEonPy4u7SjWQb4kWfYOB3PggjmAZSb4Iy1YxtTee0Y1fwDNMdm",
+            "role": "admin",
+            "id": 1
+        },
+        {
+            "email": "marilucornelio17@gmail.com",
+            "password": "$2a$06$T9oEonPy4u7SjWQb4kWfYOB3PggjmAZSb4Iy1YxtTee0Y1fwDNMdm",
+            "role": "admin",
+            "id": 2
+        },
+        {
+            "email": "admin@gmail.com",
+            "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+            "role": "admin",
+            "id": 3
+        },
+        {
+            "email": "waiter@gmail.com",
+            "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+            "role": "waiter",
+            "id": 4
+        }
+    ]
+}
