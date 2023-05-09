@@ -1,6 +1,6 @@
-# Burger Queen Server Mock
+# Burger Queen Mock Server
 
-Server Mock para el proyecto [DEV003-burger-queen-api-client](https://github.com/alextina/DEV003-burger-queen-api-client)
+Mock Server para el proyecto [DEV003-burger-queen-api-client](https://github.com/alextina/DEV003-burger-queen-api-client)
 
 Usando las librerías [json-server](https://github.com/typicode/json-server) 
 y [json-server-auth](https://github.com/jeremyben/json-server-auth) 
